@@ -1,4 +1,5 @@
 <?php
 
 header('content-type: application/json');
-echo json_encode(['time' => time(), 'date' => date('d.m.Y'), 'tech' => 'Vercel'], 'Php Ver' => phpversion());
+echo json_encode(['time' => time(), 'date' => date('d.m.Y'), 'tech' => 'Vercel']);
+echo 'Curren version' . phpversion();
